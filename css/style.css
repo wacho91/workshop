@@ -1,0 +1,229 @@
+/*Fuentes*/
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 53px;
+    margin-left: 70px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    margin-left: 280px;
+}
+
+b {
+    color: orange;
+}
+
+p.par{
+    text-align: justify;
+    font-size: 22px;
+    color: #808080;
+    margin-left: 75px;
+}
+
+button.btn.btn-outline-warning {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+div.circle{
+    background-color: #ff8c00;
+    background-image: linear-gradient(0deg, #ff8c00 0%, #ffffff 55%);
+    border-radius: 50%;
+    width: 470px;
+    height: 470px;
+    position: relative;
+    top: -15px;
+    left: 55px;
+}
+
+
+
+div.fondo{
+    background-image: url("/img/Element.png");
+    background-repeat: no-repeat;
+    /* background-position: center center;
+    background-size: cover; */
+    filter: contrast(60%) brightness(60%);
+    opacity:0.5;
+    width: 40%;
+    height: 25%;
+}
+
+img.image {
+    font-size: 10px;
+}  
+
+p.text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p.text-1 {
+    font-size: 10px;
+}
+
+p.text-2 {
+    font-size: 11px;
+}
+
+div.card {
+    border-radius: 10px;
+    margin-left: 60px;
+    top: -390px;
+    border-style: none;
+}
+
+div.card2 {
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 350px;
+}
+
+div.card3 {
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+div.visible {
+    opacity: 0;
+    color: transparent;
+    background-color:transparent;
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    text: center;
+   
+}
+
+div.visible:hover{
+    transition: all .1s ease-in-out;
+    width: 110px;
+    height: 30px;
+    background-color: #F0394D;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    text: center;
+
+}
+
+div.testimonial:hover{
+    -webkit-box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    -moz-box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    transition: .5s;
+    cursor: pointer;
+}
+
+div.card-image:hover {
+    -webkit-box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    -moz-box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    box-shadow: -1px 3px 14px -3px rgba(0,0,0,0.61);
+    transition: .5s;
+    cursor: pointer;
+}
+
+div.card-info:hover{
+    -webkit-box-shadow: -2px 9px 8px 9px rgba(247,234,202,0.68);
+    -moz-box-shadow: -2px 9px 8px 9px rgba(247,234,202,0.68);
+    box-shadow: -2px 9px 8px 9px rgba(247,234,202,0.68);
+    transition: .3s;
+    cursor: pointer;
+}
+
+div.col.text-decoration-line-through {
+    color:#808080;
+}
+
+button.btn-4 {
+    margin-left: -100px;
+}
+
+#last{
+    padding-left: 15vw;
+    padding-right: 1vw;
+}
+
+#last h6 {
+    margin-top: -20px;
+    line-height: 1.7rem;
+    font-size: 14px;
+}
+
+.hrl{
+    width: 63vw;
+}
+
+#terms{
+    padding-left: 19vw;
+    padding-right: 19vw;
+    width: 100vw;
+}
+//Personalizando la barra de navegacion
+nav.bg-turist {
+    background-color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.img {
+    margin-left: 80px
+}
+
+a.change {
+    color: black;
+    position: relative;
+}
+
+a.change::after {
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+a.change:hover {
+    color: orange;
+}
+
+a.change:hover::after{
+    background-color: orange;
+    width: 70%;
+}
+
+.button{
+    margin-left: 120px;
+}
+
+
+
+.login {
+    color: orange !important;
+}
+
+.sign-up {
+    background-color: orange;
+    color: white !important;
+    -webkit-box-shadow: -9px 10px 13px 0px rgba(237,164,19,0.34);
+    -moz-box-shadow: -9px 10px 13px 0px rgba(237,164,19,0.34);
+    box-shadow: -9px 10px 13px 0px rgba(237,164,19,0.34);
+}
+
+.sign-up:hover {
+    background-color: black;
+}
